@@ -1,0 +1,25 @@
+.imagen-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.imagen-item{
+    width: calc(33.33% - 20px);
+    margin-top: 20px;
+    background-color: #dc3545;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.imagen-item img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.imagen-item h2,
+.imagen-item p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}

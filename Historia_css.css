@@ -1,0 +1,11 @@
+.border{
+background: rgb(114,55,205);
+background: linear-gradient(90deg, rgba(114,55,205,1) 27%, rgba(190,60,60,1) 63%);
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px
+}
